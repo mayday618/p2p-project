@@ -14,3 +14,15 @@
 5. 数据划分为训练集和测试集
 6. 基本分类模型预测
 7. 集成模型预测
+# 数据集
+data/origin_data存放原始数据
+* user文件夹存用户信息
+* bid.csv借款信息
+* record.csv投标信息
+* otherinfo.csv还款信息
+data/merge_data存放融合之后的数据
+* allUser.csv对所有user.csv进行合并生成的全部用户信息
+* label.csv从record.csv中提取的还款成功与否信息
+# 数据合并
+文件夹merge存将origin_data进行合并的py代码
+
