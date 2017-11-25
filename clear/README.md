@@ -3,3 +3,4 @@
 * successNum failNum months borrowCredit investCredit bidNumbers Authentication videoCertification educationCertification phoneCertification fullClearScore overPayScore bidScore receiveFullScore receiveScore overScore这些属性需要去掉汉字
 * money rate badBidRadio weightedBidding InterestRat payEveryMonth borrowLeft这些属性需要去掉￥和%符号
 * average Capital sex age identity otherCertification这些属性为类别信息 需要进行编码
+最后结果保存为clear_data.csv
